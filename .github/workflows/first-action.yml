@@ -1,0 +1,10 @@
+name: dirst workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-linux
+    steps:
+      - name: Print greeting
+      run: echo "Hello World"
+      - name: Print goodbye
+      run: echo "Done - bye!"
